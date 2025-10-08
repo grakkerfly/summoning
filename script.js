@@ -42,7 +42,7 @@ requestAnimationFrame(animate)
 
 function copyCA() {
   navigator.clipboard.writeText('contract here')
-  alert('CA copied!')
+  alert('合约已复制')
 }
 
 document.body.addEventListener('click', () => {
