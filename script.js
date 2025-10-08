@@ -41,10 +41,11 @@ function animate(currentTime) {
 requestAnimationFrame(animate)
 
 function copyCA() {
-  navigator.clipboard.writeText('contract here')
+  navigator.clipboard.writeText('0x7d7e724ead3b9aafe2c3c61887413cb018a94444')
   alert('合约已复制')
 }
 
 document.body.addEventListener('click', () => {
   document.getElementById('music').play()
+
 }, { once: true })
